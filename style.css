@@ -1,0 +1,76 @@
+.AnimatedDiv{
+    /* background-color: #fff; */
+    width: 5rem;
+    height: 5rem;
+    animation: Animateddi 3s infinite  ease-in-out ;
+    border-radius: 5rem;
+    
+}
+@keyframes Animateddi{
+    0%{
+        /* background-color: black; */
+        /* border-radius: 1rem 0 0 0; */
+        box-shadow: 1px -1px 0 0 rgba(0, 255, 255, 0.244) inset;
+    }
+    10%{
+        /* background-color: rgba(0, 255, 255, 0.285); */
+        /* border-radius: 0 1rem 0 0; */
+        box-shadow: 0 1px 0 0 rgba(0, 255, 255, 0.475) inset;
+
+    }
+    20%{
+        /* background-color: black; */
+        /* border-radius: 0 0 1rem 0; */
+        box-shadow: -1px 0 0 1px aqua inset;
+
+    }
+    30%{
+
+        /* background-color: rgba(0, 255, 255, 0.285); */
+        /* border-radius: 0 0 0  1rem; */
+        box-shadow: 0 -1px 0 1px  aqua inset;
+
+    }
+
+    40%{
+        /* background-color: black; */
+        /* border-radius: 1rem 1rem 1rem  1rem; */
+        box-shadow: 1px 0 0 2px aqua inset;
+
+    }
+    50%{
+        /* background-color: black; */
+        /* border-radius: 1rem 1rem 1rem  1rem; */
+        box-shadow: 0 1px 0 3px aqua inset;
+
+    }
+    60%{
+
+        /* background-color: rgba(0, 255, 255, 0.285); */
+        /* border-radius: 1rem 1rem 1rem  0; */
+        box-shadow: -1px 0 0 2px aqua inset;
+
+    }
+    70%{
+        /* background-color: black; */
+        /* border-radius: 1rem 1rem 0 0; */
+        box-shadow: 0 -1px 0 1px aqua inset;
+
+    }
+    80%{
+        /* background-color: rgba(0, 255, 255, 0.285); */
+        /* border-radius: 1rem 0 0 0; */
+        box-shadow: 1px 0 0 1px rgba(0, 255, 255, 0.557) inset;
+
+    }
+    90%{
+        /* background-color: black; */
+        /* border-radius: 0 0 0 0; */
+        box-shadow: 0 1px 0 0 rgba(0, 255, 255, 0.272) inset;
+        
+    }
+    100%{
+        box-shadow: -1px 0 0 0 rgba(0, 255, 255, 0.02) inset;
+
+    }
+}
